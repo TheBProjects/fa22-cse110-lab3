@@ -1,0 +1,47 @@
+/* Grephic design is my passion */
+strong {
+	color: red
+}
+
+div {
+	margin: 10px;
+	background-color: silver;
+
+	border-width: 1px;
+	border-style: solid;
+	border-color: black:
+}
+
+nav {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-right: 1px;
+	margin-left: 1em;
+	padding-top: 10px;
+	padding-bottom: 2em;
+	padding-left: 2px;
+	padding-right: 2px;
+	background-color: rgb(0, 255, 0);
+	border: 10px solid black;
+	border-radius: 1em;
+}
+h1 {
+	margin: 5px;
+	padding: 5px;
+	text-decoration: underline;
+	color: #FFF000
+}
+h2 {
+	margin: auto;
+
+	text-decoration: underline;
+	color: hsl(60, 100%, 50%)
+}
+
+h3 {
+	text-decoration: underline;
+}
+
+#meet_video {
+	text-align: center;
+}

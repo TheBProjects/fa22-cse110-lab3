@@ -73,3 +73,22 @@ a[href="infowars.com"]:hover {
 h1, h2, h3 {
 	font-family: Helvetica, "Trebuchet MS";
 }
+
+div li {
+	color: blue;
+}
+
+div > section {
+	margin: 40px;
+}
+li ~ li {
+	text-decoration: underline;
+}
+
+p + p {
+	text-decoration: underline;
+}
+
+.comment, button:active {
+	color: green;
+}

@@ -24,6 +24,7 @@ nav {
 	background-color: rgb(0, 255, 0);
 	border: 10px solid black;
 	border-radius: 1em;
+	display: inline-block;
 }
 h1 {
 	margin: 5px;
@@ -33,7 +34,6 @@ h1 {
 }
 h2 {
 	margin: auto;
-
 	text-decoration: underline;
 	color: hsl(60, 100%, 50%)
 }
@@ -44,4 +44,24 @@ h3 {
 
 #meet_video {
 	text-align: center;
+}
+#invis {
+	display: none;
+}
+fieldset {
+	height: 10%;
+	width: 50%;
+	max-width: 500px;
+	min-width: 50px;
+	position: static;
+}
+video {
+	position: relative;
+	left: 23%;
+}
+a:hover {
+	color: yellow;
+}
+button:active {
+	box-shadow: 2px 2px 5px #000000;
 }

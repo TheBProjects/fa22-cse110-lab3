@@ -136,3 +136,10 @@ p + p {
 	grid-row-start: 3;
 	grid-row-end: 4;
 }
+
+@media screen and (max-width: 480px) {
+	* {
+		padding: 0px;
+	}
+
+}

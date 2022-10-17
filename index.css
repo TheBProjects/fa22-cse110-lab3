@@ -28,14 +28,13 @@ nav {
 }
 h1 {
 	margin: 5px;
-	padding: 5px;
 	text-decoration: underline;
-	color: #FFF000
+	color: #FFF000;
 }
 h2 {
 	margin: auto;
 	text-decoration: underline;
-	color: hsl(60, 100%, 50%)
+	color: hsl(60, 100%, 50%);
 }
 
 h3 {
@@ -64,4 +63,13 @@ a:hover {
 }
 button:active {
 	box-shadow: 2px 2px 5px #000000;
+}
+* {
+	padding: 10px;
+}
+a[href="infowars.com"]:hover {
+	color: red;
+}
+h1, h2, h3 {
+	font-family: Helvetica, "Trebuchet MS";
 }
